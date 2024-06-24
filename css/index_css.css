@@ -1,0 +1,57 @@
+.navbar-brand h3 {
+    color: cadetblue;
+    margin: 0;
+}
+
+body {
+    background-color: #f5f5f5 !important;
+}
+.text-input-area {
+    resize: none;
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+}
+.btn-submit{
+    position: relative;
+    right: 0;
+}
+.ul-text-save {
+    padding: 0;
+    list-style: none;
+}
+.li-text-save a{
+    text-decoration: none;
+    color: black;
+}
+.li-text-save a:hover {
+    text-decoration: underline;
+}
+#text-trans-div {
+
+}
+.file-link-a {
+    text-decoration: none;
+    color: black;
+}
+.file-link-delete-a {
+    color: black;
+}
+.file-link-a:hover {
+    text-decoration: underline;
+}
+.bottom-nav p{
+    margin: 0;
+    color: white;
+    font-size: 10px;
+}
+.bottom-nav a {
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+}
+@media screen and (min-width: 768px) {
+    #text-trans-div {
+        max-height: 350px !important;
+    }
+}
